@@ -1,14 +1,14 @@
 //Import de componentes useState:
-// import { Contador } from './components/estados/ContadorSimple';
+// import { ContadorSimple } from './components/estados/ContadorSimple';
 // import { Interruptor } from './components/estados/Interruptor';
 // import { ListaDeTareas } from './components/estados/Tareas';
-// import { Formulario } from './components/estados/Formulario';
+import { FormRegistro } from './components/estados/FormRegistro';
 // import { GaleriaImagenes } from './components/estados/Galeria';
-// import { Temporizador } from './components/estados/Temporizador'
+// import { Temporizador } from './components/estados/Temporizador';
 // import { Calculadora } from './components/estados/Calculadora';
 // import { Adivinanza } from './components/estados/Adivinanza';
 // import { ContadorTexto } from './components/estados/ContadorTexto';
-// import { CarritoDeCompras} from './components/estados/CarritoDeCompras';
+// import { CarritoDeCompras } from './components/estados/CarritoDeCompras';
 
 
 
@@ -111,7 +111,7 @@ function App() {
 
   {/* <ListaDeTareas />  */}
 
-  {/* <Formulario /> */}
+  <FormRegistro />
 
   {/* <GaleriaImagenes /> */}
 
@@ -155,7 +155,7 @@ function App() {
 
   <h3>Actividades extra</h3>
 
-    <ListaDeProductos productos={productos} />
+    {/* <ListaDeProductos productos={productos} /> */}
     </>
   )
 }

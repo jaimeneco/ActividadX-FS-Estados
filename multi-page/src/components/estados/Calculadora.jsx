@@ -24,10 +24,10 @@ export const Calculadora = () => {
         const n2 = parseFloat(num2);
 
         switch (operacion) {
-            case "+": setResultado(num1 + num2); break;
-            case "-": setResultado(num1 - num2); break;
-            case "*": setResultado(num1 * num2); break;
-            case "/": setResultado(num1 / num2); break;
+            case "+": setResultado(n1 + n2); break;
+            case "-": setResultado(n1 - n2); break;
+            case "*": setResultado(n1 * n2); break;
+            case "/": setResultado(n1 / n2); break;
         }
     };
 
