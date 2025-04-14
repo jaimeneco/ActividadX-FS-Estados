@@ -22,5 +22,5 @@ export const MenuHorizontal = ({items}) => {
                 </ul>
             </nav>
         </>
-     );
+    );
 }

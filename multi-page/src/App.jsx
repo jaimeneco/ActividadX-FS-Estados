@@ -2,7 +2,7 @@
 // import { ContadorSimple } from './components/estados/ContadorSimple';
 // import { Interruptor } from './components/estados/Interruptor';
 // import { ListaDeTareas } from './components/estados/Tareas';
-import { FormRegistro } from './components/estados/FormRegistro';
+// import { FormRegistro } from './components/estados/FormRegistro';
 // import { GaleriaImagenes } from './components/estados/Galeria';
 // import { Temporizador } from './components/estados/Temporizador';
 // import { Calculadora } from './components/estados/Calculadora';
@@ -41,7 +41,7 @@ import { FormRegistro } from './components/estados/FormRegistro';
 //   {label: "Ayuda", url: "./support"}
 // ]
 
-//MENÚ DROPDOWN:
+// MENÚ DROPDOWN:
 // import { MenuDropDown } from "./components/modulos/menus/dropDown/MenuDropDown"
 // const menuItems = [
 //   {label: "Home", url: "./home"},
@@ -111,7 +111,7 @@ function App() {
 
   {/* <ListaDeTareas />  */}
 
-  <FormRegistro />
+  {/* <FormRegistro /> */}
 
   {/* <GaleriaImagenes /> */}
 
@@ -144,14 +144,14 @@ function App() {
 
   {/* <h3>Ejemplos de Modulos</h3> */}
 
-  {/* < Carrusel imageList={imageList}/>
-  < Carrusel imageList={imageList} autoPlay/> */}
+  {/* < Carrusel imageList={imageList}/> */}
+  {/* < Carrusel imageList={imageList} autoPlay/> */}
 
   {/* <MenuHorizontal items={menuItems} /> */}
 
   {/* <MenuDropDown items={menuItems} /> */}
 
-  {/* <MenuVertical categories={menuCategorias} /> */}
+  <MenuVertical categories={menuCategorias} />
 
   <h3>Actividades extra</h3>
 

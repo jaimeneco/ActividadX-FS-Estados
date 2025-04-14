@@ -27,6 +27,6 @@ export const Saludar = () => {
             Contar {cont}
         </button>
         </>
-     );
+    );
 }
 
