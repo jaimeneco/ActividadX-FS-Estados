@@ -151,11 +151,11 @@ function App() {
 
   {/* <MenuDropDown items={menuItems} /> */}
 
-  <MenuVertical categories={menuCategorias} />
+  {/* <MenuVertical categories={menuCategorias} /> */}
 
   <h3>Actividades extra</h3>
 
-    {/* <ListaDeProductos productos={productos} /> */}
+    <ListaDeProductos productos={productos} />
     </>
   )
 }
